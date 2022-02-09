@@ -1,0 +1,60 @@
+@use '../1-base/variables'
+@use '../1-base/base-mixins'
+@use 'layouts-mixins'
+
+//@include layouts-mixins.center-content
+
+header
+    background-image: url(../../img/banner-1.jpg)
+    background-size: cover
+    background-position: bottom
+    height: 100vh
+
+
+.container-header
+    @include layouts-mixins.center-content  
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+
+.header-top
+    display: flex
+    justify-content: space-between
+    color: variables.$white-collor 
+    font-size: 1rem
+    font-weight: bold
+    padding-top: 3.375rem
+
+    @include base-mixins.mobile
+        font-size: 0.75rem
+        margin: 0 2rem
+    
+    span
+        border-bottom: 1px dashed variables.$white-collor
+        padding-bottom: 2px
+
+.header-bottom 
+    padding-bottom: 3.875rem
+
+    ul
+        display: flex     
+        justify-content: space-between
+
+        a
+            color: variables.$white-collor 
+            font-weight: bold
+            font-size: 1rem
+            text-transform: uppercase
+            transition: 1s
+
+            @include base-mixins.mobile
+                display: none
+
+            &:hover
+                text-decoration: underline
+
+
+
+            
+            

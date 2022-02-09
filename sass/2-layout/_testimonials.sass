@@ -1,0 +1,48 @@
+@use 'layouts-mixins'
+@use '../1-base/variables'
+@use '../1-base/base-mixins'
+
+.testimonials
+    margin-top: 8.125rem
+
+    &-title
+        @include layouts-mixins.titles  
+        @include layouts-mixins.center-title
+
+        &-img
+            @include layouts-mixins.center-item
+
+    &-container
+        margin-top: 3.75rem
+        display: flex
+        justify-content: space-between
+
+        @include base-mixins.mobile
+            flex-direction: column
+
+        &-figure
+            width: 18.75rem
+
+            @include base-mixins.mobile
+                margin-bottom: 3.25rem
+                @include layouts-mixins.center-item
+            
+            &-img
+                align-content: center
+                @include layouts-mixins.center-item
+
+                &-name
+                    font-weight: bold
+                    @include layouts-mixins.center-title
+                    margin-top: 0.875rem
+
+                &-subname
+                    font-style: italic
+                    color: variables.$gray-dark-color
+                    @include layouts-mixins.center-title
+                    margin-top: 0.625rem
+
+                &-description
+                    margin-top: 2.375rem
+                    text-align: center
+                    font-weight: 500

@@ -1,0 +1,19 @@
+@use '../1-base/variables'
+@use '../2-layout/layouts-mixins'
+
+.btn
+    font-size: 0.875rem
+    color: variables.$white-collor
+    background-color: variables.$blue-color
+    font-weight: bold
+    text-transform: uppercase
+    height: 3.25rem
+    line-height: 2rem
+    border: none
+    cursor: pointer
+    transition: .5s
+
+    &:hover
+        color: variables.$blue-color
+        background-color: variables.$white-collor
+        border: 1px solid variables.$blue-color

@@ -1,0 +1,54 @@
+@use 'layouts-mixins'
+@use '../1-base/variables'
+@use '../1-base/base-mixins'
+
+.consultation
+    margin-top: 5.75rem
+
+    &-title
+        @include layouts-mixins.titles  
+        @include layouts-mixins.center-title
+
+        &-img
+            @include layouts-mixins.center-item
+            margin-bottom: 9.75rem
+
+    &-container
+        display: flex
+        justify-content: space-between
+
+        @include base-mixins.mobile
+            flex-direction: column
+            text-align: center
+
+    &-subtitle
+        font-size: 2rem
+
+    &-text
+        margin-top: 0.75rem
+        line-height: 1.5rem
+
+        @include base-mixins.mobile
+            margin-top: 3.25rem
+            width: 100%
+
+    &-container1
+        width: 50%
+
+        @include base-mixins.mobile
+            width: 100%
+            margin-bottom: 3.25rem
+
+    &-container2
+        width: 23.75rem
+
+        @include base-mixins.mobile
+            @include layouts-mixins.center-item
+
+        &-input
+            @include layouts-mixins.form-style
+            
+
+
+        .btn-consultation
+            width: 23.75rem

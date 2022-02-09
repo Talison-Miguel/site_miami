@@ -1,0 +1,32 @@
+@use '../1-base/variables'
+
+@mixin center-content
+    max-width: variables.$container-width
+    margin: 0 auto
+
+@mixin titles
+    font-size: 3rem
+    font-weight: lighter
+    text-transform: uppercase
+    line-height: 3.75rem
+        
+@mixin center-title
+    display: flex
+    justify-content: center
+    
+@mixin center-item
+    display: block
+    margin-left: auto
+    margin-right: auto
+    
+@mixin form-style
+    background-color: variables.$gray-color
+    border: none
+    width: 23.75rem
+    height: 3.25rem
+    margin-bottom: 0.75rem
+    outline: 0
+    text-align: center
+
+
+

@@ -1,0 +1,60 @@
+@use '../1-base/variables'
+@use 'layouts-mixins'
+@use '../1-base/base-mixins'
+//Faltam ajustes
+.miami-best
+    display: flex
+    margin-top: 8.75rem
+    line-height: 1.5rem
+    justify-content: space-between
+
+    @include base-mixins.mobile
+        flex-direction: column
+
+    &-container1
+        width: 40%
+        padding-right: 10%
+        box-sizing: border-box
+
+        @include base-mixins.mobile
+            width: 100%
+            padding: 0
+
+    &-container2
+        width: 60%
+
+        @include base-mixins.mobile
+            width: 100%
+            margin-top: 3.25rem
+
+    &-title
+        @include layouts-mixins.titles 
+
+        @include base-mixins.mobile
+            text-align: center      
+
+        &-span1
+            font-weight: bold
+
+        &-span2
+            color: variables.$blue-color
+
+    &-container-text
+        margin-left: 1.25rem
+
+        @include base-mixins.mobile
+            margin: 0
+            text-align: center
+
+    &-subtitle
+        font-weight: bold
+
+    &-list
+        margin-top: 2.75rem
+        margin-bottom: 3.25rem
+
+        @include base-mixins.mobile
+            text-align: center
+
+    &-text-finaly
+        font-weight: bold

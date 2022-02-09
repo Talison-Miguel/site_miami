@@ -1,0 +1,29 @@
+@use '../1-base/variables'
+@use '../1-base/base-mixins'
+
+footer
+    background-image: url(../../img/banner-footer.jpg)
+    background-size: cover
+    height: 100vh
+    background-position: bottom
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    margin-top: 6.375rem
+
+    @include base-mixins.mobile
+        width: 100%
+    
+    
+    p
+        position: relative
+        font-weight: bold
+        color: variables.$white-collor
+        top: 9.375rem
+
+        @include base-mixins.mobile
+            top: 4.6875rem
+
+        
+       
