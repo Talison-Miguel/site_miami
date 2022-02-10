@@ -9,6 +9,7 @@
         @include layouts-mixins.titles  
         @include layouts-mixins.center-title
 
+
         &-img
             @include layouts-mixins.center-item
             margin-bottom: 9.75rem
@@ -19,10 +20,13 @@
 
         @include base-mixins.mobile
             flex-direction: column
-            text-align: center
+
 
     &-subtitle
         font-size: 2rem
+
+        @include base-mixins.mobile
+            font-size: 1.5rem
 
     &-text
         margin-top: 0.75rem
@@ -44,11 +48,13 @@
 
         @include base-mixins.mobile
             @include layouts-mixins.center-item
+            max-width: 100%
 
         &-input
             @include layouts-mixins.form-style
             
-
+            
 
         .btn-consultation
             width: 23.75rem
+            max-width: 100%

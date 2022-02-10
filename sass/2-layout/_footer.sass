@@ -1,4 +1,5 @@
 @use '../1-base/variables'
+@use 'layouts-mixins'
 @use '../1-base/base-mixins'
 
 footer
@@ -10,10 +11,15 @@ footer
     align-items: center
     justify-content: center
     flex-direction: column
-    margin-top: 6.375rem
+    margin-top: 5.375rem
 
     @include base-mixins.mobile
-        width: 100%
+        max-width: 100%
+        height: 50vh
+        justify-content: start
+
+        img
+            margin-top: 1rem
     
     
     p

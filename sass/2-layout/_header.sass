@@ -10,6 +10,9 @@ header
     background-position: bottom
     height: 100vh
 
+    @include base-mixins.mobile
+        height: 50vh
+
 
 .container-header
     @include layouts-mixins.center-content  
@@ -27,12 +30,13 @@ header
     padding-top: 3.375rem
 
     @include base-mixins.mobile
-        font-size: 0.75rem
-        margin: 0 2rem
+        font-size: 0.70rem
+        
     
     span
         border-bottom: 1px dashed variables.$white-collor
         padding-bottom: 2px
+
 
 .header-bottom 
     padding-bottom: 3.875rem

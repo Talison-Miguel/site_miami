@@ -1,9 +1,12 @@
 @use 'layouts-mixins'
 @use '../1-base/variables'
-@use '../1-base/_base-mixins'
+@use '../1-base/base-mixins'
 
 .places
     margin-top: 9.375rem
+
+    @include base-mixins.mobile
+        margin-top: 5.375rem
     
 
 .places-title

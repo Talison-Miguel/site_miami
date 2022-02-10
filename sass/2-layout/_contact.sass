@@ -3,7 +3,7 @@
 @use '../1-base/base-mixins'
 
 .Contact
-    margin-top: 6.875rem
+    margin-top: 5.875rem
 
     &-title
         @include layouts-mixins.titles  
@@ -36,19 +36,21 @@
 
     &-rigth
         width: 23.75rem
+        max-width: 100%
         
         @include base-mixins.mobile
             margin-top: 3.25rem
             @include layouts-mixins.center-item
-    
+            max-width: 100%
+
         &-input
-            @include layouts-mixins.form-style
-            
+            @include layouts-mixins.form-style      
 
         .message
             height: 10.625rem           
 
         .btn-contact
             width: 23.75rem
+            max-width: 100%
 
             

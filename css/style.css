@@ -56,6 +56,17 @@ header {
   background-position: bottom;
   height: 100vh;
 }
+@media (max-width: 550px) {
+  header {
+    height: 50vh;
+  }
+  header .galery {
+    display: none;
+  }
+  header .galery2 {
+    display: block;
+  }
+}
 
 .container-header {
   max-width: 940px;
@@ -64,6 +75,17 @@ header {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+@media (max-width: 550px) {
+  .container-header {
+    padding: 0 20px;
+  }
+  .container-header .galery {
+    display: none;
+  }
+  .container-header .galery2 {
+    display: block;
+  }
 }
 
 .header-top {
@@ -76,8 +98,7 @@ header {
 }
 @media (max-width: 550px) {
   .header-top {
-    font-size: 0.75rem;
-    margin: 0 2rem;
+    font-size: 0.7rem;
   }
   .header-top .galery {
     display: none;
@@ -124,6 +145,17 @@ header {
   max-width: 940px;
   margin: 0 auto;
 }
+@media (max-width: 550px) {
+  .container-main {
+    padding: 0 20px;
+  }
+  .container-main .galery {
+    display: none;
+  }
+  .container-main .galery2 {
+    display: block;
+  }
+}
 
 .miami-best {
   display: flex;
@@ -134,6 +166,7 @@ header {
 @media (max-width: 550px) {
   .miami-best {
     flex-direction: column;
+    margin-top: 4.75rem;
   }
   .miami-best .galery {
     display: none;
@@ -182,6 +215,17 @@ header {
 }
 @media (max-width: 550px) {
   .miami-best-title {
+    font-size: 2rem;
+  }
+  .miami-best-title .galery {
+    display: none;
+  }
+  .miami-best-title .galery2 {
+    display: block;
+  }
+}
+@media (max-width: 550px) {
+  .miami-best-title {
     text-align: center;
   }
   .miami-best-title .galery {
@@ -203,7 +247,6 @@ header {
 @media (max-width: 550px) {
   .miami-best-container-text {
     margin: 0;
-    text-align: center;
   }
   .miami-best-container-text .galery {
     display: none;
@@ -219,23 +262,34 @@ header {
   margin-top: 2.75rem;
   margin-bottom: 3.25rem;
 }
-@media (max-width: 550px) {
-  .miami-best-list {
-    text-align: center;
-  }
-  .miami-best-list .galery {
-    display: none;
-  }
-  .miami-best-list .galery2 {
-    display: block;
-  }
-}
 .miami-best-text-finaly {
   font-weight: bold;
+}
+@media (max-width: 550px) {
+  .miami-best-text-finaly {
+    text-align: center;
+  }
+  .miami-best-text-finaly .galery {
+    display: none;
+  }
+  .miami-best-text-finaly .galery2 {
+    display: block;
+  }
 }
 
 .places {
   margin-top: 9.375rem;
+}
+@media (max-width: 550px) {
+  .places {
+    margin-top: 5.375rem;
+  }
+  .places .galery {
+    display: none;
+  }
+  .places .galery2 {
+    display: block;
+  }
 }
 
 .places-title {
@@ -246,10 +300,22 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 550px) {
+  .places-title {
+    font-size: 2rem;
+  }
+  .places-title .galery {
+    display: none;
+  }
+  .places-title .galery2 {
+    display: block;
+  }
+}
 .places-title-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
   margin-bottom: 4.125rem;
 }
 
@@ -303,6 +369,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 .consultation {
@@ -316,10 +383,22 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 550px) {
+  .consultation-title {
+    font-size: 2rem;
+  }
+  .consultation-title .galery {
+    display: none;
+  }
+  .consultation-title .galery2 {
+    display: block;
+  }
+}
 .consultation-title-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
   margin-bottom: 9.75rem;
 }
 .consultation-container {
@@ -329,7 +408,6 @@ header {
 @media (max-width: 550px) {
   .consultation-container {
     flex-direction: column;
-    text-align: center;
   }
   .consultation-container .galery {
     display: none;
@@ -340,6 +418,17 @@ header {
 }
 .consultation-subtitle {
   font-size: 2rem;
+}
+@media (max-width: 550px) {
+  .consultation-subtitle {
+    font-size: 1.5rem;
+  }
+  .consultation-subtitle .galery {
+    display: none;
+  }
+  .consultation-subtitle .galery2 {
+    display: block;
+  }
 }
 .consultation-text {
   margin-top: 0.75rem;
@@ -380,6 +469,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    max-width: 100%;
   }
   .consultation-container2 .galery {
     display: none;
@@ -396,9 +487,12 @@ header {
   margin-bottom: 0.75rem;
   outline: 0;
   text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .consultation-container2 .btn-consultation {
   width: 23.75rem;
+  max-width: 100%;
 }
 
 .testimonials {
@@ -412,10 +506,22 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 550px) {
+  .testimonials-title {
+    font-size: 2rem;
+  }
+  .testimonials-title .galery {
+    display: none;
+  }
+  .testimonials-title .galery2 {
+    display: block;
+  }
+}
 .testimonials-title-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 .testimonials-container {
   margin-top: 3.75rem;
@@ -442,6 +548,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
   }
   .testimonials-container-figure .galery {
     display: none;
@@ -455,6 +562,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 .testimonials-container-figure-img-name {
   font-weight: bold;
@@ -476,7 +584,7 @@ header {
 }
 
 .Contact {
-  margin-top: 6.875rem;
+  margin-top: 5.875rem;
 }
 .Contact-title {
   font-size: 3rem;
@@ -486,10 +594,22 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 550px) {
+  .Contact-title {
+    font-size: 2rem;
+  }
+  .Contact-title .galery {
+    display: none;
+  }
+  .Contact-title .galery2 {
+    display: block;
+  }
+}
 .Contact-title-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
   margin-bottom: 6.75rem;
 }
 
@@ -532,6 +652,7 @@ header {
 }
 .contact-container-rigth {
   width: 23.75rem;
+  max-width: 100%;
 }
 @media (max-width: 550px) {
   .contact-container-rigth {
@@ -539,6 +660,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    max-width: 100%;
   }
   .contact-container-rigth .galery {
     display: none;
@@ -555,12 +678,15 @@ header {
   margin-bottom: 0.75rem;
   outline: 0;
   text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .contact-container-rigth .message {
   height: 10.625rem;
 }
 .contact-container-rigth .btn-contact {
   width: 23.75rem;
+  max-width: 100%;
 }
 
 footer {
@@ -572,11 +698,16 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 6.375rem;
+  margin-top: 5.375rem;
 }
 @media (max-width: 550px) {
   footer {
-    width: 100%;
+    max-width: 100%;
+    height: 50vh;
+    justify-content: start;
+  }
+  footer img {
+    margin-top: 1rem;
   }
   footer .galery {
     display: none;
