@@ -51,7 +51,7 @@ table {
 }
 
 header {
-  background-image: url(../../img/banner-1.jpg);
+  background-image: url(../img/banner-1.jpg);
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -91,9 +91,10 @@ header {
 .header-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #ffffff;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
   padding-top: 3.375rem;
 }
 @media (max-width: 550px) {
@@ -110,6 +111,7 @@ header {
 .header-top span {
   border-bottom: 1px dashed #ffffff;
   padding-bottom: 2px;
+  line-height: 2.25em;
 }
 
 .header-bottom {
@@ -121,7 +123,7 @@ header {
 }
 .header-bottom ul a {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
   transition: 1s;
@@ -160,7 +162,7 @@ header {
 .miami-best {
   display: flex;
   margin-top: 8.75rem;
-  line-height: 1.5rem;
+  line-height: 1.25em;
   justify-content: space-between;
 }
 @media (max-width: 550px) {
@@ -212,6 +214,7 @@ header {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 3.75rem;
+  box-sizing: border-box;
 }
 @media (max-width: 550px) {
   .miami-best-title {
@@ -236,7 +239,7 @@ header {
   }
 }
 .miami-best-title-span1 {
-  font-weight: bold;
+  font-weight: 500;
 }
 .miami-best-title-span2 {
   color: #00aaef;
@@ -256,14 +259,22 @@ header {
   }
 }
 .miami-best-subtitle {
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.miami-best-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5em;
 }
 .miami-best-list {
   margin-top: 2.75rem;
   margin-bottom: 3.25rem;
+  font-weight: 400;
 }
 .miami-best-text-finaly {
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 @media (max-width: 550px) {
   .miami-best-text-finaly {
@@ -297,6 +308,7 @@ header {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 3.75rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
@@ -380,6 +392,7 @@ header {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 3.75rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
@@ -503,6 +516,7 @@ header {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 3.75rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
@@ -591,6 +605,7 @@ header {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 3.75rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
@@ -690,7 +705,7 @@ header {
 }
 
 footer {
-  background-image: url(../../img/banner-footer.jpg);
+  background-image: url(../img/banner-footer.jpg);
   background-size: cover;
   height: 100vh;
   background-position: bottom;

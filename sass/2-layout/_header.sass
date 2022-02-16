@@ -5,7 +5,7 @@
 //@include layouts-mixins.center-content
 
 header
-    background-image: url(../../img/banner-1.jpg)
+    background-image: url(../img/banner-1.jpg)
     background-size: cover
     background-position: bottom
     height: 100vh
@@ -24,9 +24,10 @@ header
 .header-top
     display: flex
     justify-content: space-between
+    align-items: center
     color: variables.$white-collor 
     font-size: 1rem
-    font-weight: bold
+    font-weight: 500
     padding-top: 3.375rem
 
     @include base-mixins.mobile
@@ -36,6 +37,7 @@ header
     span
         border-bottom: 1px dashed variables.$white-collor
         padding-bottom: 2px
+        line-height: 2.25em
 
 
 .header-bottom 
@@ -47,7 +49,7 @@ header
 
         a
             color: variables.$white-collor 
-            font-weight: bold
+            font-weight: 500
             font-size: 1rem
             text-transform: uppercase
             transition: 1s

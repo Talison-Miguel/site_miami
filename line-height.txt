@@ -1,0 +1,9 @@
+. Usa em
+. Pegar a altura da linha e dividir pelo tamanho da fonte
+
+ex: 
+
+fonte = 16px
+altura da linha = 24px
+
+altura / fonte = 1.5em

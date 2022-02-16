@@ -5,7 +5,7 @@
 .miami-best
     display: flex
     margin-top: 8.75rem
-    line-height: 1.5rem
+    line-height: 1.25em
     justify-content: space-between
 
     @include base-mixins.mobile
@@ -35,7 +35,7 @@
             text-align: center      
 
         &-span1
-            font-weight: bold
+            font-weight: 500
 
         &-span2
             color: variables.$blue-color
@@ -47,15 +47,24 @@
             margin: 0
 
     &-subtitle
-        font-weight: bold
+        font-weight: 500
+        line-height: 1.5em
+    
+    &-text
+        font-weight: 400
+        font-size: 1rem
+        line-height: 1.5em
+
 
     &-list
         margin-top: 2.75rem
         margin-bottom: 3.25rem
+        font-weight: 400
 
 
     &-text-finaly
-        font-weight: bold
+        font-weight: 500
+        line-height: 1.5em
 
         @include base-mixins.mobile
             text-align: center
