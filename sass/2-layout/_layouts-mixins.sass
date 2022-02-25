@@ -13,8 +13,8 @@
     font-size: 3rem
     font-weight: lighter
     text-transform: uppercase
-    line-height: 3.75rem
     box-sizing: border-box
+    margin-bottom: 0.687rem
 
     @include base-mixins.mobile
         font-size: 2rem    
@@ -34,11 +34,17 @@
     border: none
     width: 23.75rem
     height: 3.25rem
-    margin-bottom: 0.75rem
+    margin-bottom: 0.625rem
     outline: 0
     text-align: center
     box-sizing: border-box
     max-width: 100%
 
+    &:last-child
+        margin-bottom: 0.8rem
 
 
+@mixin banner
+    background-size: cover
+    background-position: bottom
+    height: 100vh
