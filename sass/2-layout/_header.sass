@@ -2,12 +2,10 @@
 @use '../1-base/base-mixins'
 @use 'layouts-mixins'
 
-//@include layouts-mixins.center-content
 
 .carrosel
-    // @include layouts-mixins.banner
-    height: 100vh
-    
+    min-height: 100vh
+    z-index: 2    
 
     @include base-mixins.mobile
         height: 50vh
@@ -30,7 +28,8 @@
     display: flex
     flex-direction: column
     justify-content: space-between
-    height: 100vh
+    min-height: 100vh
+    height: 650px
 
     @include base-mixins.mobile
         height: 50vh
@@ -66,15 +65,13 @@
             font-weight: 500
             font-size: 1rem
             text-transform: uppercase
-            transition: 1s
+            transition: color .3s
 
             @include base-mixins.mobile
                 display: none
 
             &:hover
-                text-decoration: underline
-
-
+                color: variables.$blue-color
 
             
             

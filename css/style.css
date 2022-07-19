@@ -51,7 +51,8 @@ table {
 }
 
 .carrosel {
-  height: 100vh;
+  min-height: 100vh;
+  z-index: 2;
 }
 @media (max-width: 550px) {
   .carrosel {
@@ -92,7 +93,8 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
+  height: 650px;
 }
 @media (max-width: 550px) {
   .container-header {
@@ -155,7 +157,7 @@ table {
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
-  transition: 1s;
+  transition: color 0.3s;
 }
 @media (max-width: 550px) {
   .header-bottom ul a {
@@ -169,12 +171,13 @@ table {
   }
 }
 .header-bottom ul a:hover {
-  text-decoration: underline;
+  color: #00aaef;
 }
 
 .container-main {
   max-width: 940px;
   margin: 0 auto;
+  position: relative;
 }
 @media (max-width: 550px) {
   .container-main {
@@ -185,6 +188,32 @@ table {
   }
   .container-main .galery2 {
     display: block;
+  }
+}
+
+.backtop {
+  position: fixed;
+  z-index: 1;
+  right: 50px;
+  top: 86%;
+  z-index: 0;
+  animation-name: move-seta;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.backtop:hover {
+  animation-name: none;
+  transform: rotate(360deg);
+}
+@keyframes move-seta {
+  0% {
+    top: 86%;
+  }
+  50% {
+    top: 84%;
+  }
+  100% {
+    top: 86%;
   }
 }
 
@@ -756,7 +785,8 @@ table {
 footer {
   background-image: url(../img/banner-footer.jpg);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: 200px;
   background-position: bottom;
   display: flex;
   align-items: center;
