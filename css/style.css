@@ -828,6 +828,10 @@ footer p {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   font-size: 0.875rem;
   color: #ffffff;
