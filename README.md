@@ -34,7 +34,7 @@
 
 ## :rocket: Sobre o Repositório
 
-Este é um repositório contendo um exemplo de site, que fiz para treinar minhas habilidades com SASS, após concluir um curso de SASS. 
+Este é um repositório contendo um exemplo de site, que fiz para treinar minhas habilidades com SASS, após concluir um curso de SASS. Também integrei um slider usando a biblioteca do slick. 
 
 ---
 
