@@ -4,14 +4,12 @@
 
 <p align="center">
 
-  <img alt="GitHub top language" src="https://img.shields.io/badge/JS-66.7%25-%yellow">
+  <img alt="GitHub top language" src="https://img.shields.io/badge/JavaScript-66.7%25-yellow">
 
   <br>
   
   <img src="https://img.shields.io/badge/code%20quality-A-green"/>
   
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/badge/last%20commit-december-green">
-
   <a href="https://www.linkedin.com/in/t%C3%A1lison-miguel/">
     <img alt="Made by Tálison" src="https://img.shields.io/badge/made%20by-talison-red">
   </a>
