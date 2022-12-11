@@ -42,9 +42,13 @@ Este é um repositório contendo um exemplo de site, que fiz para treinar minhas
 
 ✅ [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) <br/>
 ✅ [SASS](https://sass-lang.com/install) <br/>
+✅ [SCSS](https://sass-lang.com/install) <br/>
 ✅ [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) <br/>
 ✅ [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) <br/>
 
+### Dependências
+
+  - [SLICK](https://kenwheeler.github.io/slick/)
 
 ### Padronização de código
 
