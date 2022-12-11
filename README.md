@@ -20,7 +20,7 @@
 ---
 
 <p align="center">
-  <img alt="Imagem da Aplicação" src="img/banner-1.jpg" />
+  <img alt="Imagem da Aplicação" src="img/page.jpg" />
 </p>
 
 ---
