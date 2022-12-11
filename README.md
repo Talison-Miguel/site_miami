@@ -46,7 +46,7 @@ Este é um repositório contendo um exemplo de site, que fiz para treinar minhas
 ✅ [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) <br/>
 ✅ [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) <br/>
 
-### Dependências
+### Biblioteca ultilizada
 
   - [SLICK](https://kenwheeler.github.io/slick/)
 
