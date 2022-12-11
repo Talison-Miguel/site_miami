@@ -18,7 +18,7 @@
 ---
 
 <p align="center">
-  <img alt="Imagem da Aplicação" src="certificado.jpg" />
+  <img alt="Imagem da Aplicação" src="img/banner-1.jpg" />
 </p>
 
 ---
