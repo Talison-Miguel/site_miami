@@ -1,5 +1,5 @@
 <h1 align="center">
- 💻 Layout De Um Site Feito Com Sass 💻
+ 💻 Exemplo De Site Feito Com Sass 💻
 </h1>
 
 <p align="center">
@@ -32,20 +32,21 @@
 
 ## :rocket: Sobre o Repositório
 
-Este é um repositório contendo todo conteúdo que fiz do curso, desde funcionalidades do sass até projetos. 
+Este é um repositório contendo um exemplo de site, que fiz para treinar minhas habilidades com SASS, após concluir um curso de SASS. 
 
 ---
 
 ## 👨‍💻️ Tecnogias utilizadas
 
+✅ [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) <br/>
 ✅ [SASS](https://sass-lang.com/install) <br/>
 ✅ [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) <br/>
-✅ [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) <br/>
+✅ [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) <br/>
+
 
 ### Padronização de código
 
   - [Arquitetura de Projetos com SASS do Matheus Battisti]
-  - :mouse: [Editor Config](https://editorconfig.org/)
 
 ### IDE
 
