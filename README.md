@@ -65,7 +65,7 @@ Este é um repositório contendo um exemplo de site, que fiz para treinar minhas
 Para copiar o projeto, utilize os comandos:
 
 ```bash
-  ❯ git clone https://github.com/Talison-Miguel/Curso-De-Sass.git
+  ❯ git clone https://github.com/Talison-Miguel/site_miami.git
 ```
 
 ---
